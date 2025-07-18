@@ -1,0 +1,30 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E5A87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2B3E54;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="88" fill="url(#gradient)" stroke="#1e293b" stroke-width="4"/>
+  
+  <!-- Chat bubble 1 -->
+  <path d="M56 64 C56 56, 64 48, 72 48 L104 48 C112 48, 120 56, 120 64 L120 80 C120 88, 112 96, 104 96 L80 96 L64 108 L70 96 L72 96 C64 96, 56 88, 56 80 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Chat bubble 2 -->
+  <path d="M72 108 C72 100, 80 92, 88 92 L120 92 C128 92, 136 100, 136 108 L136 124 C136 132, 128 140, 120 140 L96 140 L80 152 L86 140 L88 140 C80 140, 72 132, 72 124 Z" fill="white" opacity="0.7"/>
+  
+  <!-- Security lock -->
+  <rect x="78" y="70" width="16" height="12" rx="2" fill="#2E5A87"/>
+  <path d="M82 70 C82 66, 86 64, 90 64 C94 64, 98 66, 98 70" stroke="#2E5A87" stroke-width="2" fill="none"/>
+  
+  <!-- Lightning bolt (smart messaging) -->
+  <path d="M100 110 L108 110 L102 122 L110 122 L100 138 L95 128 L102 128 L96 116 Z" fill="#2E5A87"/>
+  
+  <!-- Signal strength bars -->
+  <rect x="68" y="130" width="3" height="6" fill="white" opacity="0.8"/>
+  <rect x="73" y="128" width="3" height="8" fill="white" opacity="0.8"/>
+  <rect x="78" y="126" width="3" height="10" fill="white" opacity="0.8"/>
+  <rect x="83" y="124" width="3" height="12" fill="white" opacity="0.8"/>
+</svg>
