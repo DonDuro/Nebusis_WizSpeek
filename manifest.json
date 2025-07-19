@@ -1,0 +1,58 @@
+{
+  "name": "WizSpeek® - Talk Smart. Stay Secure.",
+  "short_name": "WizSpeek®",
+  "description": "Secure, military-grade messaging platform with end-to-end encryption and real-time chat by Nebusis®",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2B3E54",
+  "theme_color": "#2E5A87",
+  "orientation": "portrait-primary",
+  "categories": ["communication", "productivity", "security"],
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/wizspeak-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-wide.png", 
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Message",
+      "short_name": "Message",
+      "description": "Start a new secure conversation",
+      "url": "/",
+      "icons": [{ "src": "/app-icon.svg", "sizes": "192x192" }]
+    }
+  ],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
